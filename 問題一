@@ -2,13 +2,13 @@ for i in range(9):#共十行
     if i%2==1:#辨識機偶數
         for n in range(20):#一行20個字
             if n%2==0:
-                print('*',end='')
+                print('*',end='')#如果是偶數輸出*
             else:
-                print('+',end='')
+                print('+',end='')#如果是基數輸出+
     else:
         for n in range(20):#一行20個字
             if n%2==0:#辨識機偶數
-                print('+',end='')
+                print('+',end='')#如果是偶數輸出*
             else:
-                print('*',end='')
-print('\n')
+                print('*',end='')#如果是基數輸出+
+    print('\n')#每一行之後都要換行
