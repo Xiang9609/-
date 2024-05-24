@@ -1,0 +1,7 @@
+隊=int(input())#輸入
+合=0
+for i in range(隊):
+    人=int(input())
+    if 人%3==0:
+        合=合+1
+print(合)
