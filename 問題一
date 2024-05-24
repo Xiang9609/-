@@ -1,0 +1,14 @@
+for i in range(9):#共十行
+    if i%2==1:#辨識機偶數
+        for n in range(20):#一行20個字
+            if n%2==0:
+                print('*',end='')
+            else:
+                print('+',end='')
+    else:
+        for n in range(20):#一行20個字
+            if n%2==0:#辨識機偶數
+                print('+',end='')
+            else:
+                print('*',end='')
+print('\n')
